@@ -8,31 +8,17 @@ sections:
   label: Blog Post
 - type: directory
   path: exampleSite/content/english/blog
-  label: Post (en)
+  label: Post
   create: documents
   match: "**/*"
   new_doc_ext: md
-  templates:
-  - post
-- type: directory
-  path: exampleSite/content/french/blog
-  label: Post (fr)
-  create: documents
-  match: "**/*"
   templates:
   - post
 - type: heading
   label: Author
 - type: directory
   path: exampleSite/content/english/author
-  label: Author (en)
-  create: documents
-  match: "**/*"
-  templates:
-  - author
-- type: directory
-  path: exampleSite/content/french/author
-  label: Author (fr)
+  label: Author
   create: documents
   match: "**/*"
   templates:
